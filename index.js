@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/about', (req, res) => {
-    res.send("This is About Page")
+    res.send("This is About Page of this app")
 })
 
 app.get('/login', (req, res) => {
