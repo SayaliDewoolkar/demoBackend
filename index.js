@@ -15,6 +15,10 @@ app.get('/login', (req, res) => {
     res.send('<h1>This is Login Page</h1>')
 })
 
+app.get('/register', (req, res) => {
+    res.send('<h1>This is register Page</h1>')
+})
+
 app.listen(process.env.PORT, () => {
     console.log(`Example app listening on port ${port}`)
 })
